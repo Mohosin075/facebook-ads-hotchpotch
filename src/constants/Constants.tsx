@@ -1,29 +1,22 @@
-import {
-  AiOutlineBarChart,
-  AiOutlineFileText,
-  AiOutlineProduct,
-  AiOutlineUser,
-} from "react-icons/ai";
-
-export const AdminListItem = [
+export const ListItem = [
   {
-    Label: "overview",
-    location: "admin/overview",
-    icon: <AiOutlineProduct />,
+    Label: "Demos",
+    location: "demos",
   },
   {
-    Label: "Manage Users",
-    location: "admin/manage-users",
-    icon: <AiOutlineUser />,
+    Label: "About",
+    location: "about",
   },
   {
-    Label: "Analytics",
-    location: "admin/analytics",
-    icon: <AiOutlineBarChart />,
+    Label: "Blog",
+    location: "blog",
   },
   {
-    Label: "Reports",
-    location: "admin/reports",
-    icon: <AiOutlineFileText />,
+    Label: "Pages",
+    location: "pages",
+  },
+  {
+    Label: "Contact",
+    location: "contact",
   },
 ];

@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme={"dark"}>
       <body
-        className={`${inter.className} ${outfit.className} max-w-[1800px] mx-auto`}
+        className={`${inter.className} ${outfit.className} max-w-[1600px] mx-auto border`}
       >
         <Navbar />
         <MainLayout>{children}</MainLayout>

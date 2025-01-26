@@ -7,5 +7,5 @@ export type Children = {
 export type ListItem = {
   Label: string;
   location: string;
-  icon: ReactNode;
+  icon?: ReactNode;
 };

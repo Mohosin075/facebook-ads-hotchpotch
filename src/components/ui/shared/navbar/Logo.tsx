@@ -3,17 +3,14 @@ import Link from "next/link";
 
 const Logo = () => {
   return (
-    <Link href="/" className="flex items-center gap-2 md:gap-3 cursor-pointer">
+    <Link href="/" className="cursor-pointer">
       <Image
-        width={50}
-        height={50}
+        width={100}
+        height={100}
         alt="logo"
-        className="w-10 h-10 md:w-16  md:h-16 object-cover"
-        src="https://i.ibb.co.com/VJCvfwf/ed49ac106692c8d48d005987f226611a.png"
+        className="object-cover w-14 md:w-16"
+        src="https://i.ibb.co.com/X58y5kJ/ed49ac106692c8d48d005987f226611a-1.png"
       />
-      <h1 className="text-xl md:text-2xl lg:text-3xl text-primary font-bold">
-        Hotchpotch
-      </h1>
     </Link>
   );
 };
