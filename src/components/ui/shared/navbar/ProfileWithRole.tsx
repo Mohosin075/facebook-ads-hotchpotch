@@ -17,11 +17,11 @@ const ProfileWithRole = () => {
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEdrGQjxjRIAaWELeq0lTtMiR_PGcD2Lisaw&s"
         />
         <div>
-          <h3 className="md:text-xl text-secondary font-semibold">
+          <h3 className="md:text-xl  font-semibold">
             {name?.length < 10 ? name : `${name?.slice(0, 10)}...`}
           </h3>
-          <h3 className="md:text-xl text-secondary font-semibold">{}</h3>
-          <h3 className="text-sm md:text-secondaryGray">Admin</h3>
+          <h3 className="md:text-xl  font-semibold">{}</h3>
+          <h3 className="text-sm">Admin</h3>
         </div>
       </Link>
     </div>

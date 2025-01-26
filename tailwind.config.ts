@@ -9,19 +9,28 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        outfit: ["Outfit", "sans-serif"],
+      },
       colors: {
-        primary: "var(--primary)",
-        secondary: "var(--secondary)",
-        primaryGray : "var(--primaryGray)",
-        secondaryGray : "var(--secondaryGray)",
-        light: {
-          background: "var(--background)",
-          foreground: "var(--foreground)",
+        primary: {
+          DEFAULT: "#1E40AF",
+          light: "#FFFFFF",
+          lightGray: "#FAFAFA",
+          dark: "#12141D",
+          darkGray: "#B7B8BB",
+          lightBlue: "#0EA5E9",
         },
-        dark: {
-          background: "var(--foreground)",
-          foreground: "var(--background)",
+        secondary: {
+          DEFAULT: "#1E40AF",
+          light: "#FFFFFF",
+          lightGray: "#FAFAFA",
+          dark: "#12141D",
+          darkGray: "#B7B8BB",
+          lightBlue: "#0EA5E9",
         },
+
       },
     },
   },

@@ -8,7 +8,7 @@ const Logo = () => {
         width={50}
         height={50}
         alt="logo"
-        className="w-10 h-10 md:w-12  md:h-12 object-cover"
+        className="w-10 h-10 md:w-16  md:h-16 object-cover"
         src="https://i.ibb.co.com/VJCvfwf/ed49ac106692c8d48d005987f226611a.png"
       />
       <h1 className="text-xl md:text-2xl lg:text-3xl text-primary font-bold">

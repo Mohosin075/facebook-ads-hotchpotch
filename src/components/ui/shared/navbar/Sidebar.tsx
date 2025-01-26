@@ -6,8 +6,8 @@ import LogOut from "./LogOut";
 
 const Sidebar = () => {
   return (
-    <div className="min-h-full bg-light-background px-5 py-10 w-64 md:w-72 lg:w-80">
-      <div className="bg-white min-h-[90vh] rounded-lg py-4 lg:py-0">
+    <div className="min-h-full bg- px-5 py-10 w-64 md:w-72 lg:w-80 bg-gray-900">
+      <div className=" min-h-[90vh] rounded-lg py-4 lg:py-0">
         <div className="block lg:hidden px-4">
           <Logo />
         </div>

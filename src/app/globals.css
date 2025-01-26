@@ -6,36 +6,26 @@
   @apply px-4 md:px-8 lg:px-16 xl:px-24;
 }
 
-.CBtn {
-  @apply py-2 px-2 md:px-4 rounded-md border text-xs md:text-lg font-semibold border-primary text-primary;
-}
-.CBtnBg {
-  @apply py-2 px-2 md:px-4 rounded-md border text-xs md:text-lg font-semibold bg-primary text-white border-primary;
+
+button {
+  @apply py-2 px-2 md:px-4 rounded-md text-xs md:text-lg font-semibold  border-0 text-white bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] hover:from-[#5C7FFF] hover:to-[#CB5CFF] active:from-[#0035F5] active:to-[#A600F5];
 }
 
-:root {
-  --primary: #f82ba9;
-  --secondary: #160e4b;
-  --background: #f8f8f8;
-  --foreground: #160e4b;
-  --primaryGray: #fdcfeb21;
-  --secondaryGray: #737791;
+h1 {
+  @apply text-6xl text-primary-light filter brightness-[20] font-thin font-outfit;
 }
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #160e4b;
-    --foreground: #ededed;
-  }
+h2 {
+  @apply text-[42px] text-primary-light filter brightness-[20] font-semibold font-outfit;
 }
-@media (prefers-color-scheme: white) {
-  :root {
-    --background: #ededed;
-    --foreground: #160e4b;
-  }
+h3 {
+  @apply text-2xl  text-primary-light filter brightness-[20] font-semibold font-outfit;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-} */
+h4 {
+  @apply text-lg  text-primary-light filter brightness-[20] font-semibold font-inter;
+}
+h5 {
+  @apply text-[16px]  text-primary-light filter brightness-[20] font-semibold font-inter;
+}
+p {
+  @apply text-[16px]  text-primary-lightGray filter font-inter;
+}

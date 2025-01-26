@@ -1,13 +1,12 @@
 import { Children } from "@/types";
 import Sidebar from "./navbar/Sidebar";
 
-const DashboardLayout = ({ children }: Children) => {
-  const user = true;
+const MainLayout = ({ children }: Children) => {
   return (
     <div className="md:py-5">
       <div className="drawer">
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-        <div className="drawer-content p-5 md:p-10 bg-light-background min-h-screen">
+        <div className="drawer-content p-5 md:p-10  min-h-screen">
           {/* Page content here */}
           {children}
         </div>
@@ -18,11 +17,11 @@ const DashboardLayout = ({ children }: Children) => {
             className="drawer-overlay"
           ></label>
           {/* Sidebar content here */}
-          {user && <Sidebar />}
+          <Sidebar />{" "}
         </div>
       </div>
     </div>
   );
 };
 
-export default DashboardLayout;
+export default MainLayout;

@@ -1,18 +1,7 @@
-"use client";
-import { useRouter } from "next/navigation";
-
 const SignUp = () => {
-  const user = false; 
-  const router = useRouter();
-
-  if (user) {
-    router.push(`/dashboard/${"admin"}/overview`);
-    return null; 
-  }
-
   return (
     <div className="min-h-screen flex items-center justify-center bg-light-background text-light-foreground">
-      <form className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+      <form className=" p-8 rounded-lg shadow-md w-full max-w-md">
         <h1 className="text-2xl font-bold text-primary mb-4">Sign Up</h1>
         <p className="text-sm text-secondaryGray mb-6">
           Fill in your details to create an account.
