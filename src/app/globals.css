@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.CContainer {
+  @apply px-4 md:px-8 lg:px-16 xl:px-24;
+}
+
+.CBtn {
+  @apply py-2 px-2 md:px-4 rounded-md border text-xs md:text-lg font-semibold border-primary text-primary;
+}
+.CBtnBg {
+  @apply py-2 px-2 md:px-4 rounded-md border text-xs md:text-lg font-semibold bg-primary text-white border-primary;
+}
+
+:root {
+  --primary: #f82ba9;
+  --secondary: #160e4b;
+  --background: #f8f8f8;
+  --foreground: #160e4b;
+  --primaryGray: #fdcfeb21;
+  --secondaryGray: #737791;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #160e4b;
+    --foreground: #ededed;
+  }
+}
+@media (prefers-color-scheme: white) {
+  :root {
+    --background: #ededed;
+    --foreground: #160e4b;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+} */
