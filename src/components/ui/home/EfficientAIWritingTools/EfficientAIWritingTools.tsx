@@ -1,6 +1,6 @@
 const EfficientAIWritingTools = () => {
   return (
-    <div className="CContainer relative flex flex-col-reverse lg:flex-row justify-between gap-10">
+    <div className="CContainer relative flex flex-col-reverse lg:flex-row justify-between gap-10 py-16">
       <div className="bgShadow left-1/3 top-1/3"></div>
 
       <div className="lg:w-6/12 xl:w-4/12 relative bg-white flex flex-col pt-5 px-8 space-y-3 rounded-lg mb-16">
@@ -40,7 +40,7 @@ const EfficientAIWritingTools = () => {
         </div>
       </div>
 
-      <div className="w-10/12 lg:w-6/12 mx-auto space-y-4 lg:space-y-8">
+      <div className="w-10/12 lg:w-6/12  space-y-4 lg:space-y-8">
         <h2>
           Create content efficiently and quickly with great AI writing tools
         </h2>

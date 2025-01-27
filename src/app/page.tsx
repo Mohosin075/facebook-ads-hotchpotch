@@ -1,4 +1,5 @@
 import Banner from "@/components/ui/banner/Banner";
+import ClearAuthenticWriting from "@/components/ui/home/ClearAuthenticWriting/ClearAuthenticWriting";
 import CustomerSays from "@/components/ui/home/customarSays/CustomerSays";
 import EfficientAIWritingTools from "@/components/ui/home/EfficientAIWritingTools/EfficientAIWritingTools";
 import MixLandHelps from "@/components/ui/home/mixLandHelps/MixLandHelps";
@@ -11,7 +12,8 @@ const Home = () => {
     <div>
       <Banner />
       <PayingCustomer />
-      <EfficientAIWritingTools/>
+      <EfficientAIWritingTools />
+      <ClearAuthenticWriting />
       <WritingTools />
       <MixLandHelps />
       <CustomerSays />
