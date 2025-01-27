@@ -31,11 +31,9 @@ const MyPlan = () => {
               ))}
             </ul>
             <button
-              className={`py-2 px-2 md:px-4 rounded-md text-xs md:text-lg text-white border border-primary-dark
-        bg-gradient-to-r 
-        hover:from-[#2B59FF] hover:to-[#BB2BFF] hover:border-transparent
-        active:from-[#0035F5] active:to-[#A600F5]
-        mt-auto`}
+              className={`py-2 px-2 md:px-4 rounded-md text-xs md:text-lg text-white border border-primary-dark bg-gradient-to-r 
+               hover:from-[#2B59FF] hover:to-[#BB2BFF] hover:border-transparent
+              active:from-[#0035F5] active:to-[#A600F5] mt-auto`}
             >
               Get Started
             </button>
