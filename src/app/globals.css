@@ -29,7 +29,7 @@ h1 {
   @apply text-3xl md:text-4xl lg:text-6xl text-primary-light filter  font-thin font-outfit;
 }
 h2 {
-  @apply text-2xl md:text-[42px] text-primary-light filter  font-semibold font-outfit;
+  @apply text-2xl md:text-[42px] text-primary-light filter leading-tight font-semibold font-outfit;
 }
 h3 {
   @apply text-xl md:text-2xl  text-primary-light filter  font-semibold font-outfit;

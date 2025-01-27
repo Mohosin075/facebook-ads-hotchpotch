@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const FooterLIst = ({ lists, title }: { lists: string[], title : st }) => {
+const FooterLIst = ({ lists, title }: { lists: string[]; title: string }) => {
   return (
     <div>
       <h4 className="mb-5">{title}</h4>
