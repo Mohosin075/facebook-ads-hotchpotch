@@ -26,7 +26,7 @@ const Banner = () => {
           </button>
         </div>
       </div>
-      <div className="bgShadow right-0 bottom-0"></div>
+      <div className="bgShadow right-10 bottom-0"></div>
     </div>
   );
 };
