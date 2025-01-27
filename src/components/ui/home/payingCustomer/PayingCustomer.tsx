@@ -5,7 +5,7 @@ const PayingCustomer = () => {
   return (
     <div className="CContainer py-24  text-center w-8/12 mx-auto">
       <h3>Trusted by nearly 5000+ paying customers</h3>
-      <div>
+      <div className="opacity-50">
         <div className="mt-20 flex items-center gap-5 justify-between">
           <Link href="/" className="cursor-pointer">
             <Image

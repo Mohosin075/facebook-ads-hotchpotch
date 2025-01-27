@@ -20,3 +20,23 @@ export const ListItem = [
     location: "contact",
   },
 ];
+
+export const companyList = ["about", "features", "works", "career"];
+export const helpList = [
+  "Customer Support",
+  "Delivery Details",
+  "Terms & Conditions",
+  "Privacy Policy",
+];
+export const ResourcesList = [
+  "Free eBooks",
+  "Development Tutorial",
+  "How to - Blog",
+  "Youtube Playlist",
+];
+export const linkList = [
+  "Free eBooks",
+  "Development Tutorial",
+  "How to - Blog",
+  "Youtube Playlist",
+];
