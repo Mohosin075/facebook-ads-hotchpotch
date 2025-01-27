@@ -3,6 +3,7 @@ import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/ui/shared/navbar/Navbar";
 import MainLayout from "@/components/ui/shared/MainLayout";
+import Footer from "@/components/ui/shared/footer/Footer";
 
 // Import Inter font
 const inter = Inter({
@@ -30,10 +31,11 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme={"dark"}>
       <body
-        className={`${inter.className} ${outfit.className} max-w-[1600px] mx-auto border`}
+        className={`${inter.className} ${outfit.className} max-w-[1600px] mx-auto`}
       >
         <Navbar />
         <MainLayout>{children}</MainLayout>
+        <Footer />
       </body>
     </html>
   );

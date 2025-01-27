@@ -2,8 +2,8 @@ import { FaPlayCircle } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className="relative border  h-[600px] text-center">
-      <div className="bgShadow"></div>
+    <div className="relative h-[600px] text-center border-b-2 border-[#3b4055]">
+      <div className="bgShadow inset-y-20 inset-x-0"></div>
 
       <div className="absolute inset-0 flex flex-col items-center justify-center text-primary-light px-6 space-y-6 md:w-3/5  xl:w-2/5 mx-auto">
         <h1 className="space-y-2">
@@ -26,6 +26,7 @@ const Banner = () => {
           </button>
         </div>
       </div>
+      <div className="bgShadow right-0 bottom-0"></div>
     </div>
   );
 };

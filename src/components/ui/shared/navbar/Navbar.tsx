@@ -10,7 +10,7 @@ const Navbar = () => {
   const pathname = usePathname();
   return (
     <div className="CContainer drop-shadow-lg flex justify-between items-center py-3">
-      <div className="bgShadow h-32"></div>
+      <div className="bgShadow inset-y-20 inset-x-0"></div>
       {/* Navbar Left */}
       <div className="flex items-center md:gap-8 lg:gap-14">
         <Logo />
