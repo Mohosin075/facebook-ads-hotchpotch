@@ -221,3 +221,4 @@ export const writingTools = [
       "A distraction-free writing tool that allows you to write in a minimalist environment.",
   },
 ];
+

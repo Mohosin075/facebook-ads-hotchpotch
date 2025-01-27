@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const CustomerSays = () => {
   return (
-    <div className="CContainer py-16">
+    <div className="CContainer py-16 bg-[#252835]">
       <SectionTitle
         title="What our customers say"
         desc="Read why thousands of marketers, writers, and entrepreneurs love us so much."
