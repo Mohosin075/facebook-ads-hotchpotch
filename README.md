@@ -2,7 +2,7 @@
 
 
 ## Project Overview
-This project showcases a responsive and dynamic Facebook Ads website built as part of a job task. The website allows users to explore various subscription plans with unique features and functionality designed to aid businesses in optimizing their Facebook ad campaigns.
+This project showcases a responsive and dynamic Facebook Ads website built as part of a job task. Built using React.js, Next.js, Tailwind CSS, and TypeScript, the website allows users to explore various subscription plans with unique features and functionality designed to aid businesses in optimizing their Facebook ad campaigns.
 
 ---
 
